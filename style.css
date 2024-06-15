@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+ 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+    word-spacing:10px ;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgba(185, 132, 185, 0.823);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+section {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2em;
+    font-weight:700;
+    line-height: 2.0;
+    margin: 20px;
+    flex: 1;
+   
+}
+
+
+section h2 {
+    font-size: 3em;
+    color: #333;
+}
+
+
+
+section img {
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    /* padding-top:40%; */
+    /* padding-bottom: 40%; */
+    display: block;
+
+    /* margin: 0 auto;  */
+
+}
+
+section h3 {
+   
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    bottom: 20%;
+    width: 100%;
+} 
+
+#Achievement{
+    text-align: center;
+}
+
